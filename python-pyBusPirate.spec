@@ -18,6 +18,7 @@ URL:		https://code.google.com/p/the-bus-pirate/
 BuildRequires:	python-devel
 BuildRequires:	python-modules
 Requires:	python
+Requires:	python-serial
 %endif
 %if %{with python3}
 BuildRequires:	python3-devel
@@ -37,6 +38,7 @@ Version:	r597
 Release:	1
 Group:		Libraries/Python
 Requires:	python3
+Requires:	python3-serial
 
 %description -n python3-%{module}
 Library for interacting with the Bus Pirate.
