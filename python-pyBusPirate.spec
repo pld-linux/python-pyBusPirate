@@ -8,7 +8,7 @@
 Summary:	Library for interacting with the Bus Pirate
 Name:		python-pyBusPirate
 Version:	r597
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Python
 Source0:	https://the-bus-pirate.googlecode.com/files/pyBusPirateLite-%{version}.zip
@@ -35,7 +35,7 @@ Library for interacting with the Bus Pirate.
 %package -n	python3-%{module}
 Summary:	Library for interacting with the Bus Pirate
 Version:	r597
-Release:	1
+Release:	2
 Group:		Libraries/Python
 Requires:	python3
 Requires:	python3-serial
